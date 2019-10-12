@@ -38,6 +38,7 @@ public class TestMybatis {
 	
 	//@Test
 	public void test2() {
+		String s = "https://cloud.tencent.com/developer/article/1493924";
 	
 		MUser muser = new MUser();
 		muser.setId("0000");

@@ -11,6 +11,7 @@ public class MmenuServiceImpl implements MmenuService {
     @Autowired
     private MmenuMapper mmenuMapper;
 
+
     @Override
     public int deleteByPrimaryKey(Integer id) {
         return mmenuMapper.deleteByPrimaryKey(id);
